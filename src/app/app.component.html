@@ -1,0 +1,54 @@
+
+<div class="position-absolute top-50 start-50 translate-middle">
+  <div class="d-flex flex-column d-inline p-2">
+      <div >
+          <p class="form-control border-secondary rounded-0" > {{operaciones}}</p>
+          <p class="form-control border-secondary rounded-0" >{{resultados}}</p>
+      </div>  
+  
+      <div class="d-flex justify-content-center">
+          <div class="d-inline p-2 text-bg-primary bg-primary">
+              <div id="row1">
+                  <div class="btn-group rounded-0" role="group" aria-label="Basic example">
+                      <button type="button"  (click)="pulsaboton9()" class="btn btn-primary btn-lg">9</button>
+                      <button type="button"  (click)="pulsaboton8()" class="btn btn-primary btn-lg">8</button>
+                      <button type="button"  (click)="pulsaboton7()" class="btn btn-primary btn-lg">7</button>
+                  </div>
+              </div>
+              <div id="row2">
+                  <div class="btn-group rounded-0" role="group" aria-label="Basic example">
+                      <button type="button"  (click)="pulsaboton6()" class="btn btn-primary btn-lg">6</button>
+                      <button type="button"  (click)="pulsaboton5()" class="btn btn-primary btn-lg">5</button>
+                      <button type="button"  (click)="pulsaboton4()" class="btn btn-primary btn-lg">4</button>
+                  </div>
+              </div>
+              <div id="row3">
+                  <div class="btn-group rounded-0" role="group" aria-label="Basic example">
+                      <button type="button"  (click)="pulsaboton3()" class="btn btn-primary btn-lg">3</button>
+                      <button type="button" (click)="pulsaboton2()" class="btn btn-primary btn-lg">2</button>
+                      <button type="button" (click)="pulsaboton1()" class="btn btn-primary btn-lg">1</button>
+                  </div>
+              </div>
+              <div id="row4">
+                  <div class="btn-group rounded-0" role="group" aria-label="Basic example">
+                      <button type="button"  (click)="pulsabotoncoma()" class="btn btn-primary btn-lg">.</button>
+                      <button type="button"  (click)="pulsaboton0()" class="btn btn-primary btn-lg">0</button>
+                      <button type="button"   (click)="pulsaboton00()" class="btn btn-primary btn-lg">00</button>
+                  </div>
+              </div>
+          </div>
+          <div >
+              <div id="columnutilities">
+                  <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                      <button type="button"  (click)="pulsabotonborrar()" class="btn btn-info text-white rounded-0">DEL</button>
+                      <button type="button"  (click)="pulsabotondividir()" class="btn btn-info text-white rounded-0">/</button>
+                      <button type="button"  (click)="pulsabotonmult()" class="btn btn-info text-white rounded-0">X</button>
+                      <button type="button"  (click)="pulsabotonresta()" class="btn btn-info text-white rounded-0">-</button>
+                      <button type="button"  (click)="pulsabotonsuma()" class="btn btn-info text-white rounded-0">+</button>
+                      <button type="button"  (click)="pulsabotonresultado()" class="btn btn-info text-white rounded-0">=</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
